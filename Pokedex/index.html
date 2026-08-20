@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PokéDex</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #fff3e0;
+      padding-top: 30px;
+    }
+    .tarjeta-pokemon {
+      background-color: white;
+      width: 220px;
+      margin: 20px auto;
+      padding: 15px;
+      border: 2px solid #ff9800;
+      border-radius: 8px;
+    }
+    .tarjeta-pokemon img {
+      width: 100px;
+    }
+    input, button {
+      padding: 8px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>PokéDex</h1>
+  <input type="text" id="pokemon" placeholder="Nombre o número">
+  <button onclick="buscarPokemon()">Buscar</button>
+
+  <div id="resultadoPokemon"></div>
+
+  <script src="pokedex.js"></script>
+</body>
+</html>
